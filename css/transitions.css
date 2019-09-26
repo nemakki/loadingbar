@@ -1,0 +1,84 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    background-color: #474747;
+}
+
+.container{
+    width: 90%;
+    margin: 0 auto;
+}
+
+h1{
+    margin: 0 auto;
+    font-family: monospace;
+    text-align: center;
+    color: beige;
+}
+
+#trigger1{
+    position:relative;
+    left: 100px;
+    top: 200px;
+    width: 200px;
+    height: 200px;
+    background-color: #ebd488;
+    border: 5px solid #ab717f;
+
+    /* transition-property: width, height, background-color;
+    transition-duration: 500ms, 1000ms, 4000ms;
+    transition-timing-function: cubic-bezier(.81,.26,.17,.84), ease-out, linear;
+    transition-delay: 100ms, 300ms, 400ms; */
+}
+
+#trigger1:hover .box{
+    width: 10px;
+    height: 20px;
+    background-color: #a1c2b7;
+
+    transition: width 2000ms ease-in, height 1000ms, background-color 4000ms ease-out;
+    /* transition-property: width, height, background-color;
+    transition-duration: 500ms, 1000ms, 4000ms;
+    transition-timing-function: cubic-bezier(.81,.26,.17,.84), ease-out, linear;
+    transition-delay: 100ms, 300ms, 400ms; */
+}
+
+.box{
+    position: relative;
+    left: 0px;
+    top: 0px;
+    width: 200px;
+    height: 200px;
+    background-color: ;
+    /* transition-property: width, height, background-color;
+    transition-duration: 500ms, 1000ms, 4000ms;
+    transition-timing-function: cubic-bezier(.81,.26,.17,.84), ease-out, linear;
+    transition-delay: 100ms, 300ms, 400ms; */
+    
+    /* transition: [property][duration][delay][timing-function] */
+
+    /* transition: width 2000ms ease-in;
+    transition: height 1000ms;
+    transition: background-color 4000ms ease-out; */
+}
+
+.box{
+    border:3px solid #333333;
+}
+
+.box:hover{
+    /* width: 800px;
+    height: 400px;
+    background-color: #a1c2b7; */
+}
+
+.red{
+    background-color: #d4948e;
+}
+
+/* .red:hover{
+    width: 800px;
+    height: 400px;
+    background-color: #a1c2b7;
+} */
+
